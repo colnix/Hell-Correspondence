@@ -30,7 +30,7 @@ $(document).ready(function(){
   }
   var time = new Date();
   var hour = time.getHours();
-  if(hour === 18){
+  if(hour === 24){
     show();
   }else{
     showError();
